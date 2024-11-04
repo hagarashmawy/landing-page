@@ -1,0 +1,100 @@
+body {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  padding: 2rem 0 2rem 0;
+}
+
+h1 {
+  margin: 40px;
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 60px;
+}
+
+h2 {
+  margin: 20px;
+  text-align: center;
+  color: green;
+}
+
+p {
+  margin: 20px;
+  padding: 0 20px;
+  font-size: 30px;
+  color: red;
+}
+
+#navbar {
+  background: whitesmoke;
+  color: red;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li {
+  display: inline;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#sections {
+  margin-top: 60px;
+}
+
+section {
+  padding: 20px 20px 100px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+footer {
+  background: whitesmoke;
+  color: green;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+/* I learned from this */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries */
+/* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+  p {
+    font-size: 0.9em;
+  }
+  #navbar li {
+    display: block;
+    padding: 5px 0;
+  }
+}
