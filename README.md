@@ -17,3 +17,5 @@ This is my second project in the udacity front end web development nannodegree p
 - Upon click, the navigation item takes you to the specified section
 
 - The active section is highlited in the navigation bar
+
+- Sleek design that's simple yet modern
